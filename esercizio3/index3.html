@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="./esercizio3.js"></script>
+        <title>Esercizio3</title>
+    </head>
+    <body>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                padding: 1rem;
+                font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
+            }
+
+            #question {
+                font-size: 2rem;
+            }
+
+            #result {
+                display: flex;
+                justify-content: start;
+                gap: 1rem;
+                flex-wrap: wrap;
+                margin-top: 2rem;
+            }
+
+            .cardContainer {
+                width: 300px;
+                border: 0.1rem solid black;
+                padding: 0.5rem;
+            }
+            img {
+                width: 300px;
+                height: 200px;
+            }
+        </style>
+
+        <p id="question">Search countries by language:</p>
+        <input type="text" placeholder="Language" />
+        <button>Click</button>
+
+        <div id="result"></div>
+    </body>
+</html>
